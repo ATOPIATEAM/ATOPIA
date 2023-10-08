@@ -177,7 +177,7 @@ div.about-the-team{
     width: fit-content;
     display: grid;
     
-    gap: 0px;;
+    gap: 10px;;
     
     margin: 0 auto;
 }
