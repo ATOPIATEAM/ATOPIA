@@ -1,0 +1,33 @@
+body{
+    background: black;
+    padding: 5%;
+}
+
+@media (min-width: 40em){
+}
+
+.arow{
+    height: 100px;
+}
+    .homepage {
+        display: flex;
+    
+        
+    }
+    .big-A{
+        height: 400px;
+        float: left;
+    }
+    .att{
+        font-size: .7rem;
+    }
+    div.about-the-team{
+        width: 35%;
+        height: fit-content;
+        background: white;
+        padding: 2%;
+        border-radius: 15px;
+     
+  
+        
+    }

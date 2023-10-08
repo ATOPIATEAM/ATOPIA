@@ -1,10 +1,221 @@
 body{
-    padding: 4%;
-    background-image: url(Atopia\ bc.jpg);
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
 }
       
       /******** NAV-BAR ********/
+nav a{
+    text-decoration: none;
+    color: white;
+}
 
+nav ul {
+    list-style: none;
+    width: fit-content;
+}
+nav{
+    display: flex;
+    width: fit-content;
+    
+}
+header{
+    justify-content: space-between;
+}
+
+.primary-header{
+    display: flex;
+}
+
+
+
+
+
+
+
+.background-img {
+    background-image: url(Atopia\ bc\ medium.jpg);
+    background-repeat: no-repeat;  
+    background-size: cover;
+    height: 100vh;  
+    padding: 4%; 
+}
+
+.big-A {
+    height: 420px;
+}
+
+div.about-the-team{
+    width: fit-content;
+    height: fit-content;
+    background: white;
+    padding: 2%;
+    border-radius: 15px;
+}
+.big-A{
+    height: 100px;
+}
+
+.arow {
+    height: 100px;
+}
 .logo{
-    width: 100px;
+    width: 100px; 
+  
+    align-self: center;
+          
+}
+
+
+
+@media(max-width: 40em){
+    /* NAVBAR */
+    .primary-navigation{
+        width: auto;
+        background: blue;
+        position: fixed;
+        inset: 0 0 0 30%;
+        
+        flex-direction:column;
+        padding: min(30vh, 10rem), 2em;
+    }    
+}
+@media (min-width: 40em){
+
+
+
+
+        .homepage{
+            display: flex;
+        
+            
+        }
+        .big-A{
+            height: 500px;
+            float: left;
+        }
+        .att{
+            font-size: .7rem;
+        }
+        div.about-the-team{
+            width: 35vw;
+            height: fit-content;
+            background: white;
+            padding: 2%;
+            border-radius: 15px;
+        }
+        .bottom-images{
+            width: 100vw;
+            
+        }
+        .logo{
+            width: 100px; 
+          
+            align-self: center;
+                  
+        }
+
+        .centered {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        
+        #contact-form {
+        /*      max-width: 600px; */
+
+            margin: 0 auto;
+          }
+          
+          input,
+          textarea {
+            
+           
+            padding: 8px;
+            margin-bottom: 16px;
+            border-radius: 0px;
+            border: solid 2px black;
+            
+          }
+          textarea{
+            min-width: 580px;
+            min-height: 163px;
+          }
+         
+          
+          form {
+            display: grid;
+            grid-template-columns:1fr 1fr;
+            gap:10px;
+            max-width: 600px;
+            margin: 0 auto;
+          }
+          
+          form input:last-child {
+            grid-column:span 2;
+          }
+
+          div.anotherone{
+            width: 600px;
+            margin: 0 auto;
+          }
+
+}
+
+.padding{
+    padding: 4%;
+}
+
+.budget{
+    border: 2px solid black;
+    margin-bottom: 5px;
+    width: 300px;
+
+
+}
+.budget1{
+    width: fit-content;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 10px;;
+    
+    margin: 0 auto;
+}
+
+.bottom-images{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+.buttons{
+    border: 2px solid black;
+    position: relative;
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+    display: grid;
+    place-items: center;
+    margin: 10px;
+    float: left;
+}
+
+.btn{
+    background: black;
+    height: 6px;
+    width: 6px;
+    border-radius: 100%;
+    
+}
+.footerscontainer{
+    width: 500px;
+    float: left;
+}
+
+.footers{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.copy{
+    float: right;
 }
