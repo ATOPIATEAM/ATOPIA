@@ -176,7 +176,7 @@ div.about-the-team{
 .budget1{
     width: fit-content;
     display: grid;
-    
+    grid-template-columns: 50% 50%;
     gap: 10px;;
     
     margin: 0 auto;
