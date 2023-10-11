@@ -2,6 +2,8 @@ body{
     padding: 0;
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    width: 100%;
+    overflow-x: hidden;
 }
       
                                                              /******** NAV-BAR ********/
@@ -42,17 +44,24 @@ header{
 }
 
 @media(max-width: 40em){
-    /* NAVBAR */
-    nav.primary-navigation{
-        width: auto;
+                         /* NAVBAR */
+   nav.primary-navigation{
+        
         background: hsl(0% 0% 100% / 0.1);
         backdrop-filter: blur(1rem);
         position: fixed;
-        /* inset: 0 0 0 0%; */
-        transform: translateX(50%);
+        inset: 0 0 0 30%;
+        transform: translateX(00%);
         flex-direction:column;
-        padding: min(30vh, 10rem), 2em;
-    }  
+        padding: 10rem 2em;
+    }
+    
+    ul.primary-navigation[data-visible = "true"]{
+        transform: translateX(0%);
+    }
+    ul n{
+        /* transform: translateX(100%); */
+}
     
     .mobile-nav-toggle{
     position: absolute;
@@ -66,7 +75,7 @@ header{
 }
 
     .att{
-        font-size: 4px;
+        font-size: 1px;
        
     }
 }
@@ -87,7 +96,7 @@ header{
 }
 
 div.about-the-team{
-    width: fit-content;
+    width: 100px;
     height: fit-content;
     background: white;
     padding: 2%;
@@ -272,4 +281,10 @@ div.about-the-team{
 }
 .copy{
     float: right;
+}
+
+
+footer {
+    padding: 10px;
+    margin: 10px;
 }
