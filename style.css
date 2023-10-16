@@ -51,7 +51,7 @@ header{
         backdrop-filter: blur(1rem);
         position: fixed;
         inset: 0 0 0 30%;
-        transform: translateX(00%);
+        transform: translateX(100%);
         flex-direction:column;
         padding: 10rem 2em;
     }
@@ -59,8 +59,8 @@ header{
     ul.primary-navigation[data-visible = "true"]{
         transform: translateX(0%);
     }
-    ul n{
-        /* transform: translateX(100%); */
+    ul.primary-navigation{
+        transform: translateX(100%);
 }
     
     .mobile-nav-toggle{
@@ -75,7 +75,7 @@ header{
 }
 
     .att{
-        font-size: 1px;
+        font-size: 4px;
        
     }
 }
@@ -96,7 +96,7 @@ header{
 }
 
 div.about-the-team{
-    width: 100px;
+    width: fit-content;
     height: fit-content;
     background: white;
     padding: 2%;
@@ -154,9 +154,60 @@ div.about-the-team{
 
                           /* DOWN HERE FOOTER */
 
+    .budget1{
+        width: fit-content;
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 10px;;
+        
+        margin: 0 auto;
 
+    }
 
+    .centered {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    
+    #contact-form {
+         max-width: 600px;
 
+        margin: 0 auto;
+      }
+      
+      input,
+      textarea {
+        
+       
+        padding: 8px;
+        margin-bottom: 16px;
+        border-radius: 0px;
+        border: solid 2px black;
+        
+      }
+      textarea{
+        min-width: 580px;
+        min-height: 163px;
+      }
+     
+      
+      form {
+        display: grid;
+        grid-template-columns:1fr 1fr;
+        gap:10px;
+        max-width: 600px;
+        margin: 0 auto;
+      }
+      
+      form input:last-child {
+        grid-column:span 2;
+      }
+
+      div.anotherone{
+        width: fit-content;
+        margin: 0 auto;
+
+      }
 
 
 @media (max-width: 40em){
