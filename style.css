@@ -21,10 +21,14 @@ nav a{
 nav ul {
     list-style: none;
     width: fit-content;
+    display: flex;   
+    gap: 1rem;
+     
 }
-nav{
-    display: flex;
-    width: fit-content;
+nav li{
+    
+
+   
     
 }
 header{
@@ -36,6 +40,8 @@ header{
 }
 .mobile-nav-toggle{
     display: none;
+    background-image: url('Hamburger_icon.svg.png');
+
 }
 
 
@@ -45,7 +51,7 @@ header{
 
 @media(max-width: 40em){
                          /* NAVBAR */
-   nav.primary-navigation{
+   .primary-navigation{
         
         background: hsl(0% 0% 100% / 0.1);
         backdrop-filter: blur(1rem);
@@ -56,23 +62,29 @@ header{
         padding: 10rem 2em;
     }
     
-    ul.primary-navigation[data-visible = "true"]{
+    ul#primary-navigation[data-visible = "true"]{
         transform: translateX(0%);
     }
-    ul.primary-navigation{
+    ul#primary-navigation{
         transform: translateX(100%);
-}
+    }
     
     .mobile-nav-toggle{
     position: absolute;
-    width: 10px;
+    z-index: 9999;    
+    background: url('Hamburger_icon.svg.png'); 
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+    width: 2rem;
     aspect-ratio: 1;
     top: 2rem;
     right: 2rem;
-    z-index: 9999;
+    
     display: block;
-
-}
+    border: 0;
+    }
 
     .att{
         font-size: 4px;
