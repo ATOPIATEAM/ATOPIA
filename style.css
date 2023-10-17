@@ -20,7 +20,7 @@ nav a{
 
 nav ul {
     list-style: none;
-    width: fit-content;
+    height: 100vh;
     display: flex;   
     gap: 1rem;
      
