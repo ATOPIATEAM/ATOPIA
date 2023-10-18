@@ -20,7 +20,7 @@ nav a{
 
 nav ul {
     list-style: none;
-    height: 100vh;
+    
     display: flex;   
     gap: 1rem;
      
@@ -60,6 +60,8 @@ header{
         transform: translateX(100%);
         flex-direction:column;
         padding: 10rem 2em;
+        height: 100%;
+        margin: 0;
     }
     
     ul#primary-navigation[data-visible = "true"]{
