@@ -94,7 +94,11 @@ header{
 }
 
                                         /********** MAIN-PAGE MAIN ***********/
-
+.homepage{
+    display: flex; 
+    align-items: center;
+             
+}
 
 .background-img {
     background-image: url(Atopia\ bc\ medium.jpg);
@@ -102,6 +106,15 @@ header{
     background-size: cover;
     height: 100vh;  
     padding: 4%; 
+}
+
+
+.A-container{
+    background-color: blue;
+    display: flex;
+    width: fit-content;
+    margin: 0 auto;
+        
 }
 
 .big-A {
@@ -118,95 +131,103 @@ div.about-the-team{
 }
 
 .arrow-container{
-    position: relative;
-    /* margin-left: 4rem; */
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+}
+
+
+.big-A{
+    height: 450px;
+    float: left;
+    /* margin-right: 4rem; */
+}
+
+div.about-the-team{
+    width: 35vw;
+    height: fit-content;
+    background: white;
+    padding: 4%;
+    margin-top: 1.5rem;
+    border-radius: 15px;
+    margin-bottom: 1.5rem;
+}
+
+.att{
+    font-size: .85rem;
+    margin: 0;
+    }
+
+.bottom-images{
+    width: 100vw;            
+}
+
+@media(max-width: 40em){
+    .homepage{
+        flex-direction: column;
+
+
+    }   
+    .arrow-container{
+        margin: 0 auto;
+    }
+    
+    .A-container{
+        flex-direction: column;
+        
+    }
+    .att{
+        font-size: .5rem;
+    }
+    .big-A {
+        width: 300px;
+        height: 300px;
+        max-width: 100%;
+        align-self: center;
+        margin-right: 0;
+
+    }
+
 
 }
 
-    .homepage{
-        display: flex; 
-             
-    }
-    .A-container{
-        background-color: blue;
-        display: inline-block;
-        width: fit-content;
-        /* margin: 0 auto; */
-        
-    }
-    .big-A{
-        height: 500px;
-        float: left;
-    }
 
-    .att{
-        font-size: .85rem;
-        margin: 0;
+@media(min-width: 40em){
+    .arrow-container{
+        /* margin-left: 4rem; */
     }
-
-    div.about-the-team{
-        width: 35vw;
-        height: fit-content;
-        background: white;
-        padding: 4%;
-        margin-top: 1.5rem;
-        border-radius: 15px;
-    }
-
-    .bottom-images{
-        width: 100vw;            
-    }
-
-    @media(max-width: 40em){
-        .att{
-            font-size: .5rem;
-        }
-        .homepage{
-            flex-direction: column;
-        }
-        .big-A{
-            width: 300px;
-            max-width: 100%;
-            align-self: center;
-
-        }
-
-    }
-
-
-    @media(min-width: 40em){
-        .arrow-container{
-            margin-left: 4rem;
-        }
-    }
+}
     
     
-    .arowQuote-div {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: fit-content;
-        gap: 1.5rem;
-        position: absolute;
-        bottom: 0;
-    }
-    .Quote-div{
-     width: fit-content;
+.arowQuote-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    gap: 1.5rem;
+
+    margin-top: auto;
+/* 
+    position: absolute;
+    bottom: 0; */
+}
+.Quote-div{
+    width: fit-content;
     
-    }
+}
     
-    .arow {
-        height: 70px;
-    }
-    .GetaQ{
-        color: white;
-        line-height: 2;
+.arow {
+    height: 70px;
+}
+.GetaQ{
+    color: white;
+    line-height: 2;
     
-    }
-    .Quote-hr{
-        margin: 0;
+}
+.Quote-hr{
+    margin: 0;
     
-    }
+}
 
                           /* DOWN HERE FOOTER */
 
