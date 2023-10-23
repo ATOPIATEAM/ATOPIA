@@ -262,168 +262,91 @@ div.about-the-team{
     margin: 0;
     
 }
-
-                          /* DOWN HERE FOOTER */
-
-    .budget0{
-        width: fit-content;
-        display: grid;
-        grid-template-columns: 100%;
-        gap: 10px;;
-        
-        margin: 0 auto;
-
-    }
-
-    .budget-range{
-        display: flex;
-        align-items: center;
-        width: fit-content;
-
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        left: 2rem;
-        right: 0;
-        text-align: center;
-    }
-
-    .centered {
-        max-width: 400px;
-        margin: 0 auto;
-    }
-    
-    #contact-form {
-         max-width: 600px;
-
-        margin: 0 auto;
-      }
-      
-      input,
-      textarea {
-        
-       
-        padding: 8px;
-        margin-bottom: 16px;
-        border-radius: 0px;
-        border: solid 2px black;
-        
-      }
-      textarea{
-        min-width: 580px;
-        min-height: 163px;
-      }
-     
-      
-      form {
-        display: grid;
-        grid-template-columns:1fr 1fr;
-        gap:10px;
-        max-width: 600px;
-        margin: 0 auto;
-      }
-      
-      form input:last-child {
-        grid-column:span 2;
-      }
-
-      div.anotherone{
-        width: fit-content;
-        margin: 0 auto;
-
-      }
-
-
-@media (max-width: 40em){
-    .budget0{
-        width: fit-content;
-        display: grid;
-        grid-template-columns: 100%;
-        gap: 10px;;
-        
-        margin: 0 auto;
-
-    }
-
-    .centered {
-        max-width: 400px;
-        margin: 0 auto;
-    }
-    
-    #contact-form {
-         max-width: 600px;
-
-        margin: 0 auto;
-      }
-      
-      input,
-      textarea {
-        
-       
-        padding: 8px;
-        margin-bottom: 16px;
-        border-radius: 0px;
-        border: solid 2px black;
-        
-      }
-      textarea{
-        min-width: 580px;
-        min-height: 163px;
-      }
-     
-      
-      form {
-        display: grid;
-        grid-template-columns:1fr 1fr;
-        gap:10px;
-        max-width: 600px;
-        margin: 0 auto;
-      }
-      
-      form input:last-child {
-        grid-column:span 2;
-      }
-
-      div.anotherone{
-        width: fit-content;
-        margin: 0 auto;
-      }
-
-
-
-
-
-
-}
-@media(min-width: 40em){
-    .budget0{
-        width: fit-content;
-       display: grid;
-       grid-template-columns: 50% 50%;
-       gap: 10px;;
-    
-       margin: 0 auto;
-    }    
-    #contact-form{
-        max-width: 300px;;
-    }
-}
-
-
-.budget{
-    border: 2px solid black;
-    margin-bottom: 5px;
-    width: 300px;
-    font-size: .8rem;
-    position: relative;
-}
-
+                                /********** MIDDLE PAGE ************/
 
 .bottom-images{
     width: 100%;
     text-align: center;
     margin: 0 auto;
     
+}
+
+
+                          /* DOWN HERE FOOTER */
+.box-shadow{
+    box-shadow: -5px 5px;
+}                      
+
+.centered {
+    width: 565px;
+    margin: 0 auto;
+}
+
+.titles {
+    font-weight: 600;
+    font-size: 1.32rem;
+}
+
+.footer-hr{
+    width: 565px;
+    margin-bottom: 1rem;
+    margin-top: .3rem;
+}
+
+.Letsbuild {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.parenthesisT{
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+#info-form{
+    width: fit-content;
+}
+
+input{
+    padding: 0 0 0 8px;;
+    margin-bottom: 16px;
+    border-radius: 0px;
+    border: solid 2px black;
+    height: 40px;
+    width: 270px;
+    
+}
+
+#name2{
+    margin-left: 2.4px;
+}
+
+input#email{
+    width: 565px;
+}
+
+form input:last-child {
+    grid-column:span 2;
+}
+
+.budget0{
+    width: fit-content;
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 10px;;
+        
+    margin: 0 auto;
+
+}
+
+.budget{
+    border: 2px solid black;
+    margin-bottom: 5px;
+    width: 275px;
+    height: 40px;
+    font-size: .8rem;
+    position: relative;
 }
 
 .buttons{
@@ -434,7 +357,7 @@ div.about-the-team{
     border-radius: 100%;
     display: grid;
     place-items: center;
-    margin: 10px;
+    margin: 13px 10px;
     float: left;
 }
 
@@ -445,6 +368,143 @@ div.about-the-team{
     border-radius: 100%;
     
 }
+
+.budget-range{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 2rem;
+    right: 0;
+    text-align: center;
+}
+
+.h1-3{
+    margin-top: 3rem;
+}
+
+form {
+    display: grid;
+    gap:10px;
+    width: fit-content;
+    margin: 0 auto;
+}
+ 
+
+textarea {
+    min-width: 565px;
+    min-height: 163px;         
+    padding: 8px;
+    margin-bottom: 16px;
+    border-radius: 0px;
+    border: solid 2px black;
+        
+}
+    
+#contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}   
+     
+div.submit-btn{
+    width: fit-content;
+    margin: 0 auto;
+
+}
+
+
+@media (max-width: 40em){
+
+    .centered {
+        max-width: 400px;
+        margin: 0 auto;
+    }    
+    #info-form:last-child {
+        width: 260px;
+    }
+    input{
+
+    }
+
+    form input:last-child {
+        grid-column:span 2;
+    }
+
+    .budget0{
+        width: fit-content;
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 10px;;
+        
+        margin: 0 auto;
+
+    }
+     
+    textarea {
+        min-width: 580px;
+        min-height: 163px;        
+        padding: 8px;
+        margin-bottom: 16px;
+        border-radius: 0px;
+        border: solid 2px black;
+     
+    }
+    
+    #contact-form {
+         max-width: 600px;
+
+        margin: 0 auto;
+    }
+           
+      
+    form {
+        display: grid;
+        grid-template-columns:1fr 1fr;
+        gap:10px;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+      
+
+
+      div.submit-btn{
+        width: fit-content;
+        margin: 0 auto;
+      }
+
+
+}
+
+@media(min-width: 40em){
+
+    .budget0{
+        width: fit-content;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 10px;;
+        margin: 0 auto;
+    }    
+
+    #contact-form{
+        max-width: 300px;;
+    }
+}
+
+
+
+.copy{
+    float: right;
+}
+
+
+footer {
+    padding: 10px;
+    margin: 10px;
+}
+
 .footerscontainer{
     width: fit-content;
     float: left;
@@ -454,13 +514,5 @@ div.about-the-team{
     display: grid;
     gap: 20px;
     grid-template-columns: 1fr 1fr;
-}
-.copy{
-    float: right;
-}
-
-
-footer {
-    padding: 10px;
-    margin: 10px;
+    font-weight: 600;
 }
