@@ -159,7 +159,7 @@ div.about-the-team{
     width: 100%;
     height: fit-content;
     background: white;
-    
+    box-shadow: -10px 10px;
     margin-top: 1.5rem;
     border-radius: 15px;
 
@@ -196,7 +196,7 @@ div.about-the-team{
         background: white;
         margin-top: 1.5rem;
         border-radius: 15px;
-        box-shadow: 10px 10px;
+        box-shadow: -10px 10px;
         margin: 0 auto;
     }
     
