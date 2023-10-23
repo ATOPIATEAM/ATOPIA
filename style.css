@@ -198,7 +198,7 @@ div.about-the-team{
         /* padding: 4%; */
         margin-top: 1.5rem;
         border-radius: 15px;
-        /* margin-bottom: 1.5rem; */
+        box-shadow: 10px 10px;
         margin: 0 auto;
     }
     
