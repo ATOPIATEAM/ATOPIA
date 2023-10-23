@@ -54,7 +54,7 @@ header{
                          /* NAVBAR */
     .logo{
         position: absolute;
-        top: 2.5rem;
+        top: 3rem;
         left: 2rem;
 
     }
@@ -86,7 +86,7 @@ header{
     background-size: contain;
     background-position: center;
 
-    width: 2rem;
+    width: 3rem;
     aspect-ratio: 1;
     top: 2rem;
     right: 2rem;
@@ -100,17 +100,14 @@ header{
     background-size: contain;
     background-position: center;
     }
-    .nav-hr{
-        width:100%; 
-        margin-top: 7vh;
-        display: none;
-    }
+
 }
 
                                         /********** MAIN-PAGE MAIN ***********/
 .homepage{
     display: flex; 
     align-items: center;
+    margin-top: 8vh;
              
 }
 
@@ -124,24 +121,22 @@ header{
 
 
 .A-container{
-    /* background-color: blue; */
     display: flex;
     width: fit-content;
+    /* margin: 5vh auto 0 auto; */
     margin: 0 auto;
         
 }
 
-.big-A {
-    height: 420px;
-}
+
 
 div.about-the-team{
     width: fit-content;
     height: fit-content;
     background: url("white-gift-card-on-transparent-background-free-png\ 1.png");
-    /* padding: 2%; */
+
     border-radius: 15px;
-    /* margin: 20px; */
+
 
     
     
@@ -150,14 +145,14 @@ div.about-the-team{
 .arrow-container{
     display: flex;
     flex-direction: column;
-    margin-left: 1rem;
+    margin-left: 13%;
 }
 
 
 .big-A{
     height: 450px;
     float: left;
-    /* margin-right: 4rem; */
+
 }
 
 div.about-the-team{
@@ -167,13 +162,12 @@ div.about-the-team{
     
     margin-top: 1.5rem;
     border-radius: 15px;
-    /* margin-bottom: 1.5rem; */
-    /* margin: 0 auto; */
+
 }
 
 .att{
     font-size: .85rem;
-    margin: 2%;
+    margin: 1rem;
     }
 
 .bottom-images{
@@ -181,14 +175,18 @@ div.about-the-team{
 }
 
 @media(max-width: 40em){
+    .background-img { 
+        padding: 6%; 
+    }
+    
     .homepage{
         flex-direction: column;
-        margin-top: 6vh;
+        margin-top: 13vh;
 
 
     }   
     .arrow-container{
-        margin: 1.5rem auto 0 auto;
+        margin: 3rem auto 0 auto;
         width: 100%;
     }
     
@@ -196,7 +194,6 @@ div.about-the-team{
         width: 100%;
         height: fit-content;
         background: white;
-        /* padding: 4%; */
         margin-top: 1.5rem;
         border-radius: 15px;
         box-shadow: 10px 10px;
@@ -219,14 +216,20 @@ div.about-the-team{
         margin-right: 0;
 
     }
+    .arowQuote-div {    
+        margin-top: 2rem;
+
+    }
+
 
 
 }
 
 
 @media(min-width: 40em){
-    .arrow-container{
-        /* margin-left: 4rem; */
+    .arowQuote-div{
+        margin-top: auto;
+      
     }
 }
     
@@ -238,11 +241,9 @@ div.about-the-team{
     width: fit-content;
     gap: 1.5rem;
 
-    margin-top: auto;
-/* 
-    position: absolute;
-    bottom: 0; */
+
 }
+
 .Quote-div{
     width: fit-content;
     
@@ -250,7 +251,9 @@ div.about-the-team{
     
 .arow {
     height: 70px;
+
 }
+
 .GetaQ{
     color: white;
     line-height: 2;
