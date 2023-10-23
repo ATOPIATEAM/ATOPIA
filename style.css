@@ -81,7 +81,7 @@ header{
     .mobile-nav-toggle{
     position: absolute;
     z-index: 9999;    
-    background: url('Hamburger_icon.svg.png'); 
+    background: url('mobile-nav-toggle-open.svg'); 
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -95,7 +95,7 @@ header{
     border: 0;
     }
     .mobile-nav-toggle[aria-expanded="true"]{
-    background: url("icone-x-noir.png");
+    background: url("mobile-nav-toggle-close.svg");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -103,6 +103,7 @@ header{
     .nav-hr{
         width:100%; 
         margin-top: 7vh;
+        display: none;
     }
 }
 
@@ -211,8 +212,8 @@ div.about-the-team{
         font-size: .5rem;
     }
     .big-A {
-        width: 300px;
-        height: 300px;
+        width: 285px;
+        height: 251px;
         max-width: 100%;
         align-self: center;
         margin-right: 0;
