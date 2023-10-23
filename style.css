@@ -218,7 +218,9 @@ div.about-the-team{
 
     }
 
-
+    .arow{
+        height: 55px;
+    }
 
 }
 
@@ -263,7 +265,7 @@ div.about-the-team{
 
                           /* DOWN HERE FOOTER */
 
-    .budget1{
+    .budget0{
         width: fit-content;
         display: grid;
         grid-template-columns: 100%;
@@ -271,6 +273,19 @@ div.about-the-team{
         
         margin: 0 auto;
 
+    }
+
+    .budget-range{
+        display: flex;
+        align-items: center;
+        width: fit-content;
+
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 2rem;
+        right: 0;
+        text-align: center;
     }
 
     .centered {
@@ -320,7 +335,7 @@ div.about-the-team{
 
 
 @media (max-width: 40em){
-    .budget1{
+    .budget0{
         width: fit-content;
         display: grid;
         grid-template-columns: 100%;
@@ -381,7 +396,7 @@ div.about-the-team{
 
 }
 @media(min-width: 40em){
-    .budget1{
+    .budget0{
         width: fit-content;
        display: grid;
        grid-template-columns: 50% 50%;
@@ -399,7 +414,8 @@ div.about-the-team{
     border: 2px solid black;
     margin-bottom: 5px;
     width: 300px;
-
+    font-size: .8rem;
+    position: relative;
 }
 
 
