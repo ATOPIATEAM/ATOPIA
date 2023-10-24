@@ -269,6 +269,11 @@ div.about-the-team{
     padding: 0 4%;
 }
 
+.pre-works{
+    font-size: 30px;
+    font-weight: 550;
+}
+
 .bottom-images{
     width: 400px;
     text-align: center;

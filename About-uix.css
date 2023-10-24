@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    padding: 3%;
+}
+a{
+       color: black; 
+}
+
+.clm-1 a{
+    margin: 1rem 0;
+}
+.width{
+    width: fit-content;
+}
+.About{
+
+
+}
+
+
+.clm-2p{
+   width: 500px;
+}
+
+.about-expo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+
+.clm{
+    display: flex;
+    flex-direction: column;
+}
+
+.ldr-radai{
+    border-radius: 100%;
+    aspect-ratio: 1;
+    width:   12rem;     
+    height:  12rem;
+    
+    margin-right: 3rem;
+}
+
+.img-p{
+    display: flex;
+    margin-top: 1.5rem;
+}
+
+.clm-3p{
+    width: 500px;
+}
