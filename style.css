@@ -264,15 +264,43 @@ div.about-the-team{
 }
                                 /********** MIDDLE PAGE ************/
 
+
+.mid-page{
+    padding: 0 4%;
+}
+
 .bottom-images{
-    width: 100%;
+    width: 400px;
     text-align: center;
     margin: 0 auto;
+
     
 }
 
+.first-tw{
+    display: flex;
+    justify-content: space-between;
+}
+
+.middle{
+    width: fit-content;
+    margin: 1rem auto;
+    
+
+
+}
+
+
+.last-tw{
+    display: flex;
+}
 
                           /* DOWN HERE FOOTER */
+
+
+
+
+
 .box-shadow{
     box-shadow: -5px 5px;
 }                      
@@ -386,6 +414,37 @@ form input:last-child {
     margin-top: 3rem;
 }
 
+.select-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+#Timeline-3 {
+    width: 565px;
+    height: 40px; 
+    margin: 0 auto;   
+  
+    padding: 10px;
+    background-color: #fff; 
+    border-radius: 0;
+    border: solid 1px #000;
+    box-shadow: -5px 5px black;
+    
+    font-family: poppins;
+    font-weight: 650;
+    color: #b3b3b3;
+  }
+  .option-clr{
+    color: #000;
+    
+  }
+
+.txtarea-container{
+    width: fit-content;
+    margin: 0 auto;
+}
+
 form {
     display: grid;
     gap:10px;
@@ -395,12 +454,12 @@ form {
  
 
 textarea {
-    min-width: 565px;
+    min-width: 550px;
     min-height: 163px;         
     padding: 8px;
     margin-bottom: 16px;
     border-radius: 0px;
-    border: solid 2px black;
+    border: solid 1px black;
         
 }
     
@@ -410,11 +469,31 @@ textarea {
 }   
      
 div.submit-btn{
+    display: flex;    
     width: fit-content;
-    margin: 0 auto;
+    height: fit-content;
+    margin-top: 2rem;
 
 }
 
+.hr-line{
+    margin: 0;
+    border: solid white black; 
+}
+
+.submit-hr{
+    width: fit-content;
+    margin-left: 1rem;
+    height: fit-content;
+    align-self: center;
+
+}
+.arow2{
+    width: 70px;
+    padding: 0;
+    margin: 0;
+    bottom: 0;
+}
 
 @media (max-width: 40em){
 
@@ -493,11 +572,30 @@ div.submit-btn{
     }
 }
 
+.cy-ed {
+    display: flex;
+    margin: 11rem 2rem 3rem 2rem;
+    justify-content: space-between;
 
+
+}
+
+
+.verlt-gry{
+    color: #808080;
+}
+
+.verlt-lg-gry{
+    color: #4D4D4D;
+}
 
 .copy{
-    float: right;
+    align-self: flex-end;
+    font-weight: 500;
+    color: #4D4D4D;
 }
+
+
 
 
 footer {
@@ -507,7 +605,7 @@ footer {
 
 .footerscontainer{
     width: fit-content;
-    float: left;
+    
 }
 
 .footers{
