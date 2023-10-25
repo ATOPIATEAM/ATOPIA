@@ -38,17 +38,22 @@ a{
 .ldr-radai{
     border-radius: 100%;
     aspect-ratio: 1;
-    width:   12rem;     
-    height:  12rem;
-    
-    margin-right: 3rem;
+    width:   15rem;     
+    height:  15rem;
+    position: absolute;
 }
 
 .img-p{
+    position: relative;
     display: flex;
     margin-top: 1.5rem;
+    justify-content: space-between;
 }
 
 .clm-3p{
     width: 500px;
+
+}
+.none{
+    color: white;
 }
