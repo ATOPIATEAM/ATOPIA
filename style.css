@@ -101,6 +101,8 @@ header{
 }
 
                                         /********** MAIN-PAGE MAIN ***********/
+
+
 .homepage{
     display: flex; 
     align-items: center;
@@ -291,13 +293,27 @@ div.about-the-team{
     width: fit-content;
     margin: 1rem auto;
     
-
-
 }
-
 
 .last-tw{
     display: flex;
+}
+
+@media(max-width: 40rem){
+    .column{
+        display: flex;
+        flex-direction: column;
+    }
+    .none{
+        display: none;
+    }
+
+    .neg-mar{
+        margin-top: -10rem;
+    }
+    .linear-grad{
+        
+    }
 }
 
                           /* DOWN HERE FOOTER */
