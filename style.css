@@ -168,9 +168,9 @@ div.about-the-team{
     margin: 1rem;
     }
 
-.bottom-images{
+/* .bottom-images{
     width: 100vw;            
-}
+} */
 
 @media(max-width: 40em){
     .background-img { 
@@ -294,6 +294,9 @@ div.about-the-team{
     margin: 1rem auto;
     
 }
+.linear-grad{
+    display: none;
+}
 
 .last-tw{
     display: flex;
@@ -308,11 +311,24 @@ div.about-the-team{
         display: none;
     }
 
+    .middle{
+        
+    }
+
     .neg-mar{
         margin-top: -10rem;
     }
     .linear-grad{
-        
+        display: block;
+        width: 400px;
+        height: 300px;
+        position: relative;
+        background-image: linear-gradient(0deg, blue, transparent);
+        margin-top: -15rem; 
+        z-index: 33;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
