@@ -323,9 +323,10 @@ div.about-the-team{
         width: 400px;
         height: 300px;
         position: relative;
-        background-image: linear-gradient(0deg, blue, transparent);
+        background-image: linear-gradient(to top, rgb(189, 180, 180), transparent);
         margin-top: -15rem; 
         z-index: 33;
+
         text-align: center;
         margin-left: auto;
         margin-right: auto;
@@ -538,15 +539,16 @@ div.submit-btn{
         max-width: 400px;
         margin: 0 auto;
     }    
-    #info-form:last-child {
-        width: 260px;
+    input#email {
+        width: 270px;
     }
     input{
 
     }
 
-    form input:last-child {
-        grid-column:span 2;
+    #info-form {
+        display: flex;
+        flex-direction: column;
     }
 
     .budget0{
