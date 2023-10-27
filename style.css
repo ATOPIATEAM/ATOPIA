@@ -404,9 +404,6 @@ input{
     
 }
 
-#name2{
-    /* margin-left: 2.4px; */
-}
 
 input#email{
     width: 565px;
@@ -427,7 +424,7 @@ form input:last-child {
 }
 
 .budget{
-    border: 2px solid black;
+    border: 1px solid black;
     margin-bottom: 5px;
     width: 275px;
     height: 40px;
@@ -483,6 +480,7 @@ form input:last-child {
     height: 40px; 
     margin: 0 auto;   
   
+    
     padding: 10px;
     background-color: #fff; 
     border-radius: 0;
@@ -509,10 +507,13 @@ form {
     width: fit-content;
     margin: 0 auto;
 }
- 
+
+form{
+    width: 100%;
+}
 
 textarea {
-    min-width: 550px;
+    width: 100%;
     min-height: 163px;         
     padding: 8px;
     margin-bottom: 16px;
@@ -522,7 +523,7 @@ textarea {
 }
     
 #contact-form {
-    max-width: 600px;
+    
     margin: 0 auto;
 }   
      
@@ -555,6 +556,9 @@ div.submit-btn{
 
 @media (max-width: 40em){
 
+    .fit-in-1, .fit-in-2, .fit-in-3{
+        width: fit-content;
+    }
 
     .centered {
         max-width: 400px;
@@ -583,7 +587,7 @@ div.submit-btn{
     }
      
     textarea {
-        width: 270px;
+        width: 100%;
         min-height: 163px;        
         /* padding: 8px; */
         margin-bottom: 16px;
@@ -638,7 +642,7 @@ div.submit-btn{
     }    
 
     #contact-form{
-        max-width: 300px;;
+        /* max-width: 300px; */
     }
 }
 
