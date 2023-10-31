@@ -629,6 +629,14 @@ div.submit-btn{
         width: 100%;
     }
 
+    .cy-ed {
+        display: flex;
+        margin: 11rem 2rem 3rem 2rem;
+        flex-direction: column;
+    
+    
+    }
+
 }
 
 @media(min-width: 40em){
@@ -667,6 +675,7 @@ div.submit-btn{
     align-self: flex-end;
     font-weight: 500;
     color: #4D4D4D;
+    text-transform: uppercase;
 }
 
 
