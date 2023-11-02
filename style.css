@@ -409,7 +409,7 @@ input#email{
     width: 565px;
 }
 
-form input:last-child {
+div input:last-child {
     grid-column:span 2;
 }
 
