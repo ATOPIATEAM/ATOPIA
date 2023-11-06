@@ -1,0 +1,186 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+form{
+    width: 45%;
+    margin: 0 auto;
+}
+
+
+
+.entrance{
+    text-align: center;
+}
+
+.hr-ttls{
+    text-align: left;
+}
+
+form h3 {
+    margin: 0;
+}
+
+.box-shadow{
+    box-shadow: -5px 5px;
+
+}
+
+.input-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+input{
+    padding: 0 0 0 8px;;
+    margin-bottom: 16px;
+    border-radius: 0px;
+    border: solid 2px black;
+    height: 40px;
+    width: 270px;
+}
+
+#name{
+    width: 49%;
+}
+
+.sticky{
+    width: 51%;
+    position: relative;
+}
+
+#name2{
+    position: absolute;
+    right: 0;    
+    width: 96.078%;
+
+}
+
+
+input#email{
+    flex: 100%;
+   
+}
+
+
+.budget0{
+    width: fit-content;
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 10px;;
+        
+    margin: 0 auto;
+
+}
+
+.budget{
+    border: 1px solid black;
+    margin-bottom: 5px;
+    width: 95%;
+    height: 40px;
+    font-size: .8rem;
+    position: relative;
+}
+
+.buttons{
+    border: 2px solid black;
+    position: relative;
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+    display: grid;
+    place-items: center;
+    margin: 13px 10px;
+    float: left;
+}
+
+.btn{
+    background: black;
+    height: 6px;
+    width: 6px;
+    border-radius: 100%;
+    
+}
+
+.budget-range{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 2rem;
+    right: 0;
+    text-align: center;
+}
+
+.budget0{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 10px;;
+    margin: 0 auto;
+}    
+
+
+
+
+
+
+
+
+
+
+
+               /************** COPYRIGHT ****************/
+
+.cy-ed {
+    display: flex;
+    margin: 11rem 2rem 3rem 2rem;
+    justify-content: space-between;
+
+
+}
+
+
+.verlt-gry{
+    color: #808080;
+}
+
+.verlt-lg-gry{
+    color: #4D4D4D;
+}
+
+.copy{
+    align-self: flex-end;
+    font-weight: 500;
+    color: #4D4D4D;
+    text-transform: uppercase;
+}
+
+
+
+
+footer {
+    padding: 10px;
+    margin: 10px;
+    margin-top: 3rem;
+}
+
+.footerscontainer{
+    width: fit-content;
+    
+}
+
+.footers{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    font-weight: 600;
+}
