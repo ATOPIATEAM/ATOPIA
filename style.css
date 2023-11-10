@@ -353,45 +353,37 @@ div.about-the-team{
 
 
 
+form{
+    width: 45%;
+    margin: 0 auto;
+}
+
+.entrance{
+    text-align: center;
+}
+
+.hr-ttls{
+    text-align: left;
+    padding-top: 1.5rem;
+}
+
+.placeholder::placeholder{
+    color:#B8B8B8;
+}
+
+form h3 {
+    margin: 0;
+}
+
 .box-shadow{
-    box-shadow: -5px 5px;
-}                      
-
-.centered {
-    width: 565px;
-    margin: 0 auto;
-}
-
-.titles {
-    font-weight: 600;
-    font-size: 1.32rem;
+    box-shadow: -5px 5px black;
 
 }
 
-.title-hr{
-    width: fit-content;
-    margin: 0 auto;
-}
-
-.footer-hr{
-    /* width: 270px;; */
-    margin-bottom: 1rem;
-    margin-top: .3rem;
-}
-
-.Letsbuild {
-    text-align: center;
-    margin-top: 2rem;
-}
-
-.parenthesisT{
-    text-align: center;
-    margin-bottom: 2rem;
-    margin-top: 1rem;
-}
-
-#info-form{
-    width: fit-content;
+.input-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
 }
 
 input{
@@ -401,24 +393,41 @@ input{
     border: solid 2px black;
     height: 40px;
     width: 270px;
-    
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+
+}
+
+#name{
+    width: 47%;
+}
+
+.sticky{
+    width: 53%;
+    position: relative;
+}
+
+#name2{
+    position: absolute;
+    right: 0;    
+    width: 90%;
+
 }
 
 
-input#email{
-    width: 565px;
+#email{
+    flex: 100%;
+   
 }
 
-div input:last-child {
-    grid-column:span 2;
-}
 
 .budget0{
     width: fit-content;
     display: grid;
     grid-template-columns: 100%;
     gap: 10px;;
-        
+    font-weight: 500;
+
     margin: 0 auto;
 
 }
@@ -426,7 +435,7 @@ div input:last-child {
 .budget{
     border: 1px solid black;
     margin-bottom: 5px;
-    width: 275px;
+    width: 95%;
     height: 40px;
     font-size: .8rem;
     position: relative;
@@ -465,21 +474,24 @@ div input:last-child {
     text-align: center;
 }
 
-.h1-3{
-    margin-top: 3rem;
-}
+.budget0{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 10px;;
+    margin: 0 auto;
+}    
 
-.select-container{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 2rem;
-}
+
+
+
+
 
 #Timeline-3 {
-    width: 565px;
+    width: 100%;
     height: 40px; 
     margin: 0 auto;   
-  
+    margin-bottom: 2rem;
     
     padding: 10px;
     background-color: #fff; 
@@ -488,171 +500,90 @@ div input:last-child {
     box-shadow: -5px 5px black;
     
     font-family: poppins;
-    font-weight: 650;
-    color: #b3b3b3;
-  }
-  .option-clr{
-    color: #000;
-    
+    font-weight: 500;
+    color: lightgray;
+
   }
 
-.txtarea-container{
-    width: fit-content;
-    margin: 0 auto;
+
+  
+.option-clr{
+    font-weight: 500;
+    color: #222121;
 }
 
-form {
-    display: grid;
-    gap:10px;
-    width: fit-content;
-    margin: 0 auto;
-}
-
-form{
-    width: 100%;
-}
-
-textarea {
-    width: 100%;
+textarea{
+    min-width: 100%;
+    margin-bottom: 2rem;
     min-height: 163px;         
     padding: 8px;
-    margin-bottom: 16px;
-    border-radius: 0px;
-    border: solid 1px black;
-        
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
 }
-    
-#contact-form {
-    
-    margin: 0 auto;
-}   
-     
-div.submit-btn{
-    display: flex;    
-    width: fit-content;
-    height: fit-content;
-    margin-top: 2rem;
+
+.submit-btn{
+    display: flex;
 
 }
 
-.hr-line{
-    margin: 0;
-    border: solid white black; 
+.arow2{
+    width: 70px;
 }
 
 .submit-hr{
-    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
     margin-left: 1rem;
-    height: fit-content;
-    align-self: center;
-
+    width: fit-content;
 }
-.arow2{
-    width: 70px;
-    padding: 0;
+.hr-line{
+    width: 100%;
     margin: 0;
-    bottom: 0;
 }
 
-@media (max-width: 40em){
 
-    .fit-in-1, .fit-in-2, .fit-in-3{
-        width: fit-content;
+@media(max-width: 40em){
+    form{
+        width: 95%;
     }
 
-    .centered {
-        max-width: 400px;
-        margin: 0 auto;
-    }    
-
-
-    input#email {
-        width: 100%;
-    }
-
-    #info-form {
-        width: 100%;
-        display: flex;
+    .input-container{
         flex-direction: column;
     }
-
-    .budget0{
-        width: fit-content;
-        display: grid;
-        grid-template-columns: 100%;
-        gap: 10px;;
+    #name, input{
+        width: 100%;
+        height: 40px;
+    }
+    #email{
+        flex: 0 1 auto;
+        height: 40px !important;
+    }
+    
+    .sticky{
+        width: 100%;
+        position: static;
         
-        margin: 0 auto;
-
-    }
-     
-    textarea {
-        width: 100%;
-        min-height: 163px;        
-        /* padding: 8px; */
-        margin-bottom: 16px;
-        border-radius: 0px;
-        border: solid 2px black;
-     
-    }
-    #Timeline-3{
-        width: 100%;
     }
     
-    #contact-form {
-        margin: 0 auto;
-    }
-           
-      
-    form {
+    #name2{
+        position: static; 
         width: 100%;
-        margin: 0;
-        /* display: grid;
-        grid-template-columns:1fr 1fr;
-        gap:10px;
-        max-width: 600px;
-        margin: 0 auto; */
+        
     }
-      
-
-
-    div.submit-btn{
-        width: fit-content;
-        margin: 0 auto;
-    }
-
-    .fit-in-all > * {
-        width: 100%;
-
-    }
-    .fit-in{
-        width: 100%;
-    }
-
-    .cy-ed {
-        display: flex;
-        margin: 11rem 2rem 3rem 2rem;
-        flex-direction: column;
-    
-    
-    }
-
-}
-
-@media(min-width: 40em){
 
     .budget0{
-        width: fit-content;
-        display: grid;
-        grid-template-columns: 50% 50%;
-        gap: 10px;;
-        margin: 0 auto;
-    }    
-
-    #contact-form{
-        /* max-width: 300px; */
+        display: flex;
+        flex-direction: column;
+    }
+    .budget{
+        width: 100%;
     }
 }
+
+               /************** COPYRIGHT ****************/
 
 .cy-ed {
     display: flex;
@@ -662,6 +593,18 @@ div.submit-btn{
 
 }
 
+@media(max-width: 40em){
+    .cy-ed{
+        flex-direction: column;
+    }
+
+    .copy{
+        margin: 0 auto;
+    }
+    .footers{
+        text-align: center;
+    }
+}
 
 .verlt-gry{
     color: #808080;
@@ -697,4 +640,5 @@ footer {
     gap: 20px;
     grid-template-columns: 1fr 1fr;
     font-weight: 600;
+
 }

@@ -11,14 +11,17 @@ form{
     margin: 0 auto;
 }
 
-
-
 .entrance{
     text-align: center;
 }
 
 .hr-ttls{
     text-align: left;
+    padding-top: 1.5rem;
+}
+
+.placeholder::placeholder{
+    color:#B8B8B8;
 }
 
 form h3 {
@@ -26,7 +29,7 @@ form h3 {
 }
 
 .box-shadow{
-    box-shadow: -5px 5px;
+    box-shadow: -5px 5px black;
 
 }
 
@@ -43,6 +46,9 @@ input{
     border: solid 2px black;
     height: 40px;
     width: 270px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+
 }
 
 #name{
@@ -62,7 +68,7 @@ input{
 }
 
 
-input#email{
+#email{
     flex: 100%;
    
 }
@@ -73,7 +79,8 @@ input#email{
     display: grid;
     grid-template-columns: 100%;
     gap: 10px;;
-        
+    font-weight: 500;
+
     margin: 0 auto;
 
 }
@@ -133,10 +140,101 @@ input#email{
 
 
 
+#Timeline-3 {
+    width: 100%;
+    height: 40px; 
+    margin: 0 auto;   
+    margin-bottom: 2rem;
+    
+    padding: 10px;
+    background-color: #fff; 
+    border-radius: 0;
+    border: solid 1px #000;
+    box-shadow: -5px 5px black;
+    
+    font-family: poppins;
+    font-weight: 500;
+    color: lightgray;
+
+  }
 
 
+  
+.option-clr{
+    font-weight: 500;
+    color: #222121;
+}
+
+textarea{
+    min-width: 100%;
+    margin-bottom: 2rem;
+    min-height: 163px;         
+    padding: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.submit-btn{
+    display: flex;
+
+}
+
+.arow2{
+    width: 70px;
+}
+
+.submit-hr{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-left: 1rem;
+    width: fit-content;
+}
+.hr-line{
+    width: 100%;
+    margin: 0;
+}
 
 
+@media(max-width: 40em){
+    form{
+        width: 95%;
+    }
+
+    .input-container{
+        flex-direction: column;
+    }
+    #name, input{
+        width: 100%;
+        height: 40px;
+    }
+    #email{
+        flex: 0 1 auto;
+        height: 40px !important;
+    }
+    
+    .sticky{
+        width: 100%;
+        position: static;
+        
+    }
+    
+    #name2{
+        position: static; 
+        width: 100%;
+        
+    }
+
+    .budget0{
+        display: flex;
+        flex-direction: column;
+    }
+    .budget{
+        width: 100%;
+    }
+}
 
                /************** COPYRIGHT ****************/
 
@@ -148,6 +246,18 @@ input#email{
 
 }
 
+@media(max-width: 40em){
+    .cy-ed{
+        flex-direction: column;
+    }
+
+    .copy{
+        margin: 0 auto;
+    }
+    .footers{
+        text-align: center;
+    }
+}
 
 .verlt-gry{
     color: #808080;
@@ -183,4 +293,5 @@ footer {
     gap: 20px;
     grid-template-columns: 1fr 1fr;
     font-weight: 600;
+
 }
