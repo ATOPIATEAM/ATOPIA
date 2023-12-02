@@ -435,6 +435,7 @@ input{
 }
 
 .budget{
+    cursor: pointer;
     border: 1px solid black;
     margin-bottom: 5px;
     width: 95%;
@@ -444,10 +445,10 @@ input{
 }
 
 .buttons{
-    border: 2px solid black;
+    border: 1px solid black;
     position: relative;
-    height: 10px;
-    width: 10px;
+    height: 11px;
+    width: 11px;
     border-radius: 100%;
     display: grid;
     place-items: center;
@@ -456,9 +457,9 @@ input{
 }
 
 .btn{
-    background: black;
-    height: 6px;
-    width: 6px;
+    background: rgb(19, 107, 136);
+    height: 5.5px;
+    width: 5.5px;
     border-radius: 100%;
     
 }
@@ -467,7 +468,7 @@ input{
     display: flex;
     align-items: center;
     width: fit-content;
-
+    /* word-spacing: 2px; */
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
