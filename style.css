@@ -350,7 +350,9 @@ div.about-the-team{
                           /* DOWN HERE FOOTER */
 
 
-
+* {
+     box-sizing: border-box;
+}
 
 
 form{
