@@ -447,8 +447,8 @@ input{
 .buttons{
     border: 1px solid black;
     position: relative;
-    height: 11px;
-    width: 11px;
+    height: 12px;
+    width: 12px;
     border-radius: 100%;
     display: grid;
     place-items: center;
@@ -458,10 +458,10 @@ input{
 
 .btn{
     background: none;
-    height: 5.5px;
-    width: 5.5px;
+    height: 6px;
+    width: 6px;
     border-radius: 100%;
-    
+
 }
 .changed{
     background: rgb(19, 107, 136);
