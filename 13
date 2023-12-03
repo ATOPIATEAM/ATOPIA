@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Change Background Color and Border Color on Click</title>
+  <style>
+    .grandparent {
+      padding: 20px;
+    }
+
+    .parent {
+      border: 1px solid #999;
+      padding: 10px;
+      margin-bottom: 10px;
+      cursor: pointer;
+      transition: background-color 0.3s, border-color 0.3s;
+    }
+
+    .changed {
+      background-color: blue; 
+      border-color: blue; 
+    }
+  </style>
+</head>
+<body>
+
+<div class="grandparent">
+  <div class="parent" onclick="changeColors(this)">
+    <span class="child">Click me to change colors!</span>
+    <p class="child">Another element 1</p>
+    <p class="child">Another element 2</p>
+    <p class="child">Another element 3</p>
+  </div>
+  
+  <div class="parent" onclick="changeColors(this)">
+    <span class="child">Click me to change colors!</span>
+    <p class="child">Another element 1</p>
+    <p class="child">Another element 2</p>
+    <p class="child">Another element 3</p>
+  </div>
+</div>
+
+<script>
+  function changeColors(clickedElement) {
+    // Remove 'changed' class from all parent divs
+    var parentDivs = document.querySelectorAll('.grandparent .parent');
+    parentDivs.forEach(function (parentDiv) {
+      parentDiv.classList.remove('changed');
+    });
+
+    // Toggle 'changed' class for the clicked parent div
+    clickedElement.classList.toggle('changed');
+  }
+</script>
+
+</body>
+</html>

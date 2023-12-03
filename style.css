@@ -457,18 +457,28 @@ input{
 }
 
 .btn{
-    background: rgb(19, 107, 136);
+    background: none;
     height: 5.5px;
     width: 5.5px;
     border-radius: 100%;
     
 }
+.changed{
+    background: rgb(19, 107, 136);
+    border: rgb(19, 107, 136);
+}
+.clicked .buttons {
+    border-color: rgb(19, 107, 136) !important;
+  }
 
+  .clicked .btn {
+    background-color: rgb(19, 107, 136) !important;
+  }
 .budget-range{
     display: flex;
     align-items: center;
     width: fit-content;
-    /* word-spacing: 2px; */
+
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
