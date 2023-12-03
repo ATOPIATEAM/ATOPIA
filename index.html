@@ -120,11 +120,11 @@
 <footer>
  
 
-    <form class="div">
+    <form action="https://formspree.io/f/xrgwwvjb" class="div" method="POST" id="contactForm">
 
               <div class="entrance">
                    <h3 class="Letsbuild titles centered">Let's Build something Great together!</h3>
-                   <p class="parenthesisT centered">(you'll hear back from us within 24 hours)</p>
+                   <p class="parenthesisT centered">(you'll hear back from us within 12 hours)</p>
 
                    
               </div>
@@ -157,11 +157,32 @@
         </div>
 
         <div class="budget0 fit-in">
-            <div class="budget budget1 box-shadow" onclick="changeColors(this)"><span class="buttons"><div class="btn"></div></span><span class="budget-range">below $1000</span></div>
-            <div class="budget budget2 box-shadow" onclick="changeColors(this)"><span class="buttons"><div class="btn"></div></span><span class="budget-range">$1000 - $5000</div>
-            <div class="budget budget3 box-shadow" onclick="changeColors(this)"><span class="buttons"><div class="btn"></div></span><span class="budget-range">$5000 - $10,000</span></div>
-            <div class="budget budget4 box-shadow" onclick="changeColors(this)"><span class="buttons"><div class="btn"></div></span><span class="budget-range">$10,000 - $50,000</span></div>
+            <div class="budget budget1 box-shadow" onclick="changeColors(this)">
+                <span class="buttons"><div class="btn"></div></span>
+                <span class="budget-range">below $1000</span>
+                <!-- Add a unique hidden input field for each budget option -->
+                <input type="hidden" name="selectedBudget" value="budget1">
+            </div>
+            <div class="budget budget2 box-shadow" onclick="changeColors(this)">
+                <span class="buttons"><div class="btn"></div></span>
+                <span class="budget-range">$1000 - $5000</span>
+                <!-- Add a unique hidden input field for each budget option -->
+                <input type="hidden" name="selectedBudget" value="budget2">
+            </div>
+            <div class="budget budget3 box-shadow" onclick="changeColors(this)">
+                <span class="buttons"><div class="btn"></div></span>
+                <span class="budget-range">$5000 - $10,000</span>
+                <!-- Add a unique hidden input field for each budget option -->
+                <input type="hidden" name="selectedBudget" value="budget3">
+            </div>
+            <div class="budget budget4 box-shadow" onclick="changeColors(this)">
+                <span class="buttons"><div class="btn"></div></span>
+                <span class="budget-range">$10,000 - $50,000</span>
+                <!-- Add a unique hidden input field for each budget option -->
+                <input type="hidden" name="selectedBudget" value="budget4">
+            </div>
         </div>
+
 
       
 
@@ -200,7 +221,7 @@
               
         
 
-        <div class="submit-btn">
+        <button class="submit-btn" type="submit">
             <img class="arow2" src="submit-arrow.svg">
         <div class="submit-hr">
         
@@ -208,7 +229,7 @@
         <hr class="hr-line">
 
         </div>
-        </div>
+        </button>
         </div>
         </div>
       

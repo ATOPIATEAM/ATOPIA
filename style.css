@@ -468,11 +468,11 @@ input{
     border: rgb(19, 107, 136);
 }
 .clicked .buttons {
-    border-color: rgb(19, 107, 136) !important;
+    border-color: #0055ff !important;
   }
 
   .clicked .btn {
-    background-color: rgb(19, 107, 136) !important;
+    background-color: #0055ff !important;
   }
 .budget-range{
     display: flex;
@@ -525,6 +525,11 @@ input{
     color: #222121;
 }
 
+.timeline-selected {
+    color: #222121 !important;
+}
+
+
 textarea{
     min-width: 100%;
     margin-bottom: 2rem;
@@ -536,7 +541,8 @@ textarea{
 
 .submit-btn{
     display: flex;
-
+    width: fit-content;
+    cursor: pointer;
 }
 
 .arow2{
